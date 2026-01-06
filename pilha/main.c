@@ -104,21 +104,21 @@ void exibir_pilhas(Stack *s1, Stack *s2, Stack *s3) {
         if (MAX_SIZE - s1_qtd + 1 > i) {
             centralizar_texto("|", 10);
         } else {
-            centralizar_texto(render_block(s1->items[s1_qtd-1-i_s1]), 10);
+            centralizar_texto(construir_camada_torre(s1->items[s1_qtd-1-i_s1]), 10);
             i_s1++;
         }
 
         if (MAX_SIZE - s2_qtd + 1 > i) {
             centralizar_texto("|", 10);
         } else {
-            centralizar_texto(render_block(s2->items[s2_qtd-1-i_s2]), 10);
+            centralizar_texto(construir_camada_torre(s2->items[s2_qtd-1-i_s2]), 10);
             i_s2++;
         }
 
         if (MAX_SIZE - s3_qtd + 1 > i) {
-            print_centered("|", 10);
+            centralizar_texto("|", 10);
         } else {
-            print_centered(render_block(s3->items[s3_qtd-1-i_s3]), 10);
+            centralizar_texto(construir_camada_torre(s3->items[s3_qtd-1-i_s3]), 10);
             i_s3++;
         }   
 
@@ -175,7 +175,7 @@ void pedir_para_trocar_peca() {
     int source, destination;
     // Implementation for user interaction to swap stacks
     printf("------------------------------\n");
-    print_centered("Escolha as pilhas para mover os blocos.\n", 30);
+    centralizar_texto("Escolha as pilhas para mover os blocos.\n", 30);
     printf("Digite o número da pilha de origem (1, 2 ou 3): ");
     scanf("%d", &source);
     printf("Digite o número da pilha de destino (1, 2 ou 3): ");
