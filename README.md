@@ -8,4 +8,4 @@ O jogo construído em c, que utiliza a estrutura de dados Pilha, foi uma impleme
 
 ## Fila
 
-... Escreve aí kkkkkkkkkkkk
+O jogo é uma implementação do "jogo da cobrinha" ou "snake", utilizando a estrutura de dados Fila. O objetivo é pegar o máximo de frutas(@), sem colidir com as paredes ou o próprio corpo, enquanto a cobra aumenta de tamanho. Por questões de simplicidade, o programa só funciona no windows.
