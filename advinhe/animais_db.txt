@@ -53,8 +53,8 @@
 [P]Carrega o filhote numa bolsa (marsupial)?
 [A]Canguru
 [P]Tem pelo e vive em árvore?
-[A]Ser Humano
 [A]Macaco
+[A]Ser Humano
 [P]Tem penas (é uma ave)?
 [P]Voa?
 [P]Caça à noite?
@@ -115,4 +115,5 @@
 [A]Polvo
 [A]Estrela-do-mar
 [A]Minhoca
+
 
