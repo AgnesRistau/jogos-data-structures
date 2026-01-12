@@ -184,9 +184,12 @@ void jogar(No *atual) {
 
 int main() {
     //serve para corrigir erros graficos do texto
-    system("chcp 1252");
+#ifdef _WIN32
+    system("chcp 65001");   // UTF-8 no Windows
     system("cls");
-    setlocale(LC_ALL, "Portuguese");
+#else
+    system("clear");
+#endif
 
     No *raiz = carregarBancoDeDados();
 
@@ -211,3 +214,4 @@ int main() {
     printf("\nAte a proxima!\n");
     return 0;
 }
+
