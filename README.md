@@ -6,6 +6,35 @@ Este repositório contém dois jogos feitos utilizando a estrutura de dados *pil
 
 O jogo construído em c, que utiliza a estrutura de dados Pilha, foi uma implementação da Torre de Hanói, que é um quebra-cabeça matemático com três hastes e discos de tamanhos diferentes, onde o objetivo é transferir todos os discos de uma haste para terceira seguindo duas regras: mover um disco por vez e nunca colocar um disco maior sobre um menor, utilizando uma haste auxiliar.
 
+No jogo:
+
+- Cada camada colocada em uma haste representa um item de uma pilha;
+
+- Cada haste representa uma pilha, em que só é possível retirar seu último item;
+
+- A primeira camada de uma haste corresponde ao primeiro elemento inserido nessa pilha, enquanto sua última camada corresponde ao último elemento adicionado.
+
+
+Requisitos
+
+Windows
+
+Compilador C (GCC, MinGW ou o embutido no Dev-C++)
+
+Compilação No terminal (cmd ou PowerShell), navegue até a pasta do projeto e execute:
+
+```bash
+
+gcc hanoi.c -o hanoi.exe
+```
+Execução
+
+```bash
+
+.\hanoi.exe
+```
+
+
 ## Fila - Leonardo Dias
 
 O jogo é uma implementação do "jogo da cobrinha" ou "snake", utilizando a estrutura de dados Fila. O objetivo é pegar o máximo de frutas(@), sem colidir com as paredes ou o próprio corpo, enquanto a cobra aumenta de tamanho. Por questões de simplicidade, o programa só funciona no windows.
