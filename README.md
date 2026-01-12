@@ -28,7 +28,7 @@ No jogo:
 
 No terminal (cmd ou PowerShell), navegue até a pasta do projeto e execute:
 ```bash
-g++ main.cpp -o snake
+g++ snake.cpp -o snake
 ```
 ### Execução
 ```bash
