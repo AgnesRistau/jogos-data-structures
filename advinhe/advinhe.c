@@ -7,14 +7,14 @@
 #define TAM_BUFFER 200
 #define ARQUIVO_DB "animais_db.txt"
 
-//estrutura do nó da arvore
+//estrutura do nï¿½ da arvore
 typedef struct No {
     char dado[TAM_BUFFER];
     struct No *sim;
     struct No *nao;
 } No;
 
-//Funções Auxiliares
+//Funï¿½ï¿½es Auxiliares
 
 void lerTexto(char *buffer, int tamanho) {
     fgets(buffer, tamanho, stdin);
@@ -56,7 +56,7 @@ void liberarArvore(No *n) {
     free(n);
 }
 
-//funções de banco de dados
+//funï¿½ï¿½es de banco de dados
 
 //salva a arvore no arquivo de forma recursiva
 void salvarRecursivo(No *n, FILE *f) {
@@ -96,15 +96,15 @@ No* carregarRecursivo(FILE *f) {
     //remove o \n do final da linha lida
     linha[strcspn(linha, "\n")] = 0;
 
-    //cria o nó com o texto (pula os 3 primeiros caracteres "[X]")
+    //cria o nï¿½ com o texto (pula os 3 primeiros caracteres "[X]")
     No *novo = criarNo(linha + 3);
 
-    //se a linha começar com [P], é uma pergunta, então tem filhos
+    //se a linha comeï¿½ar com [P], ï¿½ uma pergunta, entï¿½o tem filhos
     if (linha[1] == 'P') {
         novo->sim = carregarRecursivo(f);
         novo->nao = carregarRecursivo(f);
     }
-    //se for [A], é animal, não faz nada (filhos continuam NULL)
+    //se for [A], ï¿½ animal, nï¿½o faz nada (filhos continuam NULL)
 
     return novo;
 }
@@ -119,7 +119,7 @@ No* carregarBancoDeDados() {
         fclose(f);
     }
 
-    //se o arquivo não existir (primeira vez), cria o padrão
+    //se o arquivo nï¿½o existir (primeira vez), cria o padrï¿½o
     if (raiz == NULL) {
         printf("Nenhum banco de dados encontrado. Criando novo...\n");
         raiz = criarNo("Cachorro");
@@ -128,7 +128,7 @@ No* carregarBancoDeDados() {
     return raiz;
 }
 
-//lógica do Jogo (Igual a anterior)
+//lï¿½gica do Jogo (Igual a anterior)
 
 int confirmar(char *pergunta) {
     char resp[10];
@@ -184,9 +184,12 @@ void jogar(No *atual) {
 
 int main() {
     //serve para corrigir erros graficos do texto
-    system("chcp 1252");
+#ifdef _WIN32
+    system("chcp 65001");   // UTF-8 no Windows
     system("cls");
-    setlocale(LC_ALL, "Portuguese");
+#else
+    system("clear");
+#endif
 
     No *raiz = carregarBancoDeDados();
 
@@ -211,3 +214,4 @@ int main() {
     printf("\nAte a proxima!\n");
     return 0;
 }
+

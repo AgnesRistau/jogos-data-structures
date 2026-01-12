@@ -1,28 +1,28 @@
-[P]Tem ossos (√© vertebrado)?
-[P]√â um mam√≠fero?
-[P]Vive na √°gua?
-[P]√â o maior animal do mundo?
+[P]Tem ossos (È vertebrado)?
+[P]… um mamÌfero?
+[P]Vive na ·gua?
+[P]… o maior animal do mundo?
 [A]Baleia
-[P]√â conhecido por ser brincalh√£o e inteligente?
+[P]… conhecido por ser brincalh„o e inteligente?
 [A]Golfinho
 [P]Tem presas gigantes e vive no gelo?
 [A]Morsa
 [A]Peixe-boi
 [P]Voa?
 [A]Morcego
-[P]√â carn√≠voro?
-[P]√â um felino?
+[P]… carnÌvoro?
+[P]… um felino?
 [P]Tem juba?
-[A]Le√£o
+[A]Le„o
 [P]Tem listras pretas?
 [A]Tigre
-[P]√â totalmente preto?
+[P]… totalmente preto?
 [A]Pantera
-[P]√â dom√©stico (miau)?
+[P]… domÈstico (miau)?
 [A]Gato
-[A]On√ßa
-[P]Parece um cachorro (can√≠deo)?
-[P]√â dom√©stico (auau)?
+[A]OnÁa
+[P]Parece um cachorro (canÌdeo)?
+[P]… domÈstico (auau)?
 [A]Cachorro
 [P]Uiva para a lua?
 [A]Lobo
@@ -32,63 +32,63 @@
 [A]Hiena
 [P]Tem tromba?
 [A]Elefante
-[P]Tem pesco√ßo muito longo?
+[P]Tem pescoÁo muito longo?
 [A]Girafa
 [P]Tem listras preto e branco pelo corpo todo?
 [A]Zebra
 [P]Tem um chifre no nariz?
 [A]Rinoceronte
-[P]Vive na lama e abre um boc√£o?
-[A]Hipop√≥tamo
-[P]√â animal de fazenda ou dom√©stico?
+[P]Vive na lama e abre um boc„o?
+[A]HipopÛtamo
+[P]… animal de fazenda ou domÈstico?
 [P]Relincha e as pessoas montam?
 [A]Cavalo
 [P]Produz leite para humanos?
 [A]Vaca
-[P]Tem l√£?
+[P]Tem l„?
 [A]Ovelha
 [P]Tem focinho achatado e faz oinc?
 [A]Porco
 [A]Coelho
 [P]Carrega o filhote numa bolsa (marsupial)?
 [A]Canguru
-[P]Tem pelo e vive em √°rvore?
-[A]Macaco
+[P]Parece com o ser humano?
 [A]Ser Humano
-[P]Tem penas (√© uma ave)?
+[A]Macaco
+[P]Tem penas (È uma ave)?
 [P]Voa?
-[P]Ca√ßa √† noite?
+[P]CaÁa ‡ noite?
 [A]Coruja
 [P]Sabe falar/repetir?
 [A]Papagaio
 [P]Tem um bico tucano enorme?
 [A]Tucano
-[P]Bate as asas muito r√°pido e para no ar?
+[P]Bate as asas muito r·pido e para no ar?
 [A]Beija-flor
-[A]√Åguia
+[A]¡guia
 [P]Vive no gelo e nada bem?
 [A]Pinguim
-[P]√â maior que uma pessoa e corre muito?
+[P]… maior que uma pessoa e corre muito?
 [A]Avestruz
 [A]Galinha
-[P]Vive totalmente na √°gua (peixes)?
-[P]√â um predador perigoso com barbatana nas costas?
-[A]Tubar√£o
-[P]√â pequeno e laranja (Nemo)?
-[A]Peixe Palha√ßo
+[P]Vive totalmente na ·gua (peixes)?
+[P]… um predador perigoso com barbatana nas costas?
+[A]Tubar„o
+[P]… pequeno e laranja (Nemo)?
+[A]Peixe PalhaÁo
 [P]Tem formato de "cavalo"?
 [A]Cavalo-marinho
-[A]Salm√£o
+[A]Salm„o
 [P]Tem casco duro?
 [A]Tartaruga
-[P]Rasteja e n√£o tem patas?
+[P]Rasteja e n„o tem patas?
 [A]Cobra
-[P]Pula, √© verde e vive na lagoa?
+[P]Pula, È verde e vive na lagoa?
 [A]Sapo
 [P]Parece um tronco boiando no rio?
-[A]Jacar√©
+[A]JacarÈ
 [P]Muda de cor?
-[A]Camale√£o
+[A]Camale„o
 [A]Lagarto
 [P]Tem patas?
 [P]Tem 6 patas (Inseto)?
@@ -100,20 +100,18 @@
 [P]Suga sangue?
 [A]Mosquito
 [A]Mosca
-[P]Vive em col√¥nia e carrega folhas?
+[P]Vive em colÙnia e carrega folhas?
 [A]Formiga
 [A]Barata
-[P]Tem 8 patas (Aracn√≠deo)?
+[P]Tem 8 patas (AracnÌdeo)?
 [A]Aranha
-[P]Tem um ferr√£o no rabo?
-[A]Escorpi√£o
+[P]Tem um ferr„o no rabo?
+[A]Escorpi„o
 [A]Caranguejo
 [P]Tem uma concha nas costas?
 [A]Caracol
 [P]Vive no mar?
-[P]Tem tent√°culos?
+[P]Tem tent·culos?
 [A]Polvo
 [A]Estrela-do-mar
 [A]Minhoca
-
-
