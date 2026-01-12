@@ -37,4 +37,35 @@ g++ snake.cpp -o snake
 
 ## Arvore - Lucas De Lima
 
-O jogo é uma inspiração direta do famoso jogo "Akinator", só que advinhando animais, o qual utiliza a estrutura de dados Arvore. A ideia é bem simples, pense em um animal e responda as perguntas que ele irá fazer para tentar advinhar o animal. Se ele não advinhar o animal, ele irá perguntar qual é o animal e qual pergunta diferencia esse animal do que ele tentou advinhar, salvando em seu banco de dados. 
+O jogo é uma implementação de um sistema de adivinhação estilo "Akinator", utilizando a estrutura de dados Árvore Binária de Decisão. O objetivo é que a Inteligência Artificial adivinhe o animal pensado pelo jogador fazendo perguntas de Sim/Não. O sistema possui capacidade de aprendizado dinâmico: se o computador errar, ele expande a árvore inserindo o novo animal e uma nova pergunta de diferenciação no banco de dados (.txt). Por utilizar comandos de sistema para limpeza de tela e acentuação (system), o programa é otimizado para Windows.
+
+No jogo:
+
+Cada nó da árvore representa uma Pergunta ou uma Resposta Final (Animal).
+
+A raiz corresponde à pergunta inicial (ex: "Tem ossos?").
+
+O filho da direita corresponde ao caminho do "Sim".
+
+O filho da esquerda corresponde ao caminho do "Não".
+
+O banco de dados é carregado e salvo em pré-ordem (Pre-order Traversal) num arquivo de texto.
+
+Requisitos
+
+Windows
+
+Compilador C (GCC, MinGW ou o embutido no Dev-C++)
+
+Compilação No terminal (cmd ou PowerShell), navegue até a pasta do projeto e execute:
+
+```bash
+
+gcc advinhe.c -o advinhe.exe
+```
+Execução
+
+```bash
+
+.\advinhe.exe
+```
