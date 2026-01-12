@@ -1,6 +1,6 @@
 # jogos-data-structures
 
-Este repositório contém dois jogos feitos utilizando a estrutura de dados *pilha* e *fila*.
+Este repositório contém dois jogos feitos utilizando a estrutura de dados *pilha*, *fila* e *árvore*
 
 ## Pilha - Agnes Ristau
 
